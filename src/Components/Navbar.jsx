@@ -4,7 +4,6 @@ import Button from "./Button";
 import Input from "./Input";
 import Header from "./Header";
 import { useNavigate } from "react-router-dom";
-import hero from "../assets/images/hero.jpg";
 
 const Navbar = () => {
   const [email, setEmail] = React.useState("");
@@ -15,12 +14,10 @@ const Navbar = () => {
     navigate("/loginForm"); // Navigate to the login form page
   };
 
-  console.log(hero);
-
   return (
     <div
       className="hero relative min-h-[80vh] sm:h-[80vh] md:h-screen bg-cover bg-top"
-      style={{ backgroundImage: `url(${hero})` }}
+      style={{ backgroundImage: "url(/images/hero.jpg)" }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-75">
         <Header />
