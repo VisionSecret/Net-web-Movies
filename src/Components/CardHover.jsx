@@ -71,7 +71,7 @@ const CardHover = ({ value, setValue }) => {
           onClick={() => setValue(null)}
           className="absolute top-4 right-2 text-gray-100 px-2 py-1 rounded-full hover:bg-zinc-300 hover:bg-opacity-45"
         >
-          <i class="font-extralight text-3xl sm:text-3xl ri-close-large-line"></i>
+          <i className="font-extralight text-3xl sm:text-3xl ri-close-large-line"></i>
         </button>
       </div>
     </div>

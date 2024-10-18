@@ -49,9 +49,9 @@ const FAQ = () => {
             <h2 className="text-[4.4vw] sm:text-2xl text-[#F5F5F5]">{faq.question}</h2>
             <span className="font-thin text-white">
               {activeIndex === index ? (
-                <i class="font-extralight text-lg sm:text-4xl ri-close-large-line"></i>
+                <i className="font-extralight text-lg sm:text-4xl ri-close-large-line"></i>
               ) : (
-                <i class="font-extralight text-lg sm:text-4xl ri-add-large-line"></i>
+                <i className="font-extralight text-lg sm:text-4xl ri-add-large-line"></i>
               )}
             </span>
           </div>
