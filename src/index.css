@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-slide > div {
+  transition: transform 1s ease;
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+  .slick-slide > div {
+    transition: transform 1s ease;
+    margin: 0 3px;
+  }
+}
