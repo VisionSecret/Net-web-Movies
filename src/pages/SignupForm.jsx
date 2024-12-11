@@ -37,8 +37,6 @@ const SignupForm = () => {
       setErrors(newErrors); // Set errors if validation fails
     } else {
       setErrors({}); // Clear errors if validation passes
-      // Proceed with signup logic
-      console.log("Signup successful!", { email, password });
       navigate("/"); // Redirect to the welcome page or dashboard after signup
     }
   };
